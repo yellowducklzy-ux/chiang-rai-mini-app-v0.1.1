@@ -1,4 +1,4 @@
-import './styles.css';
+﻿import './styles.css';
 import { appConfig } from './config';
 import { initLine, isInLineClient, shareApp } from './services/liff';
 import { isSupabaseConfigured } from './services/supabase';
@@ -121,10 +121,10 @@ function go(path: string): void {
 
 function nav(active: string): string {
   const items = [
-    ['home', 'หน้าหลัก', icons.home],
-    ['services', 'บริการ', icons.grid],
-    ['map', 'แผนที่', icons.map],
-    ['settings', 'ตั้งค่า', icons.gear]
+    ['home', 'หน้าหลัก', '🏠'],
+    ['services', 'บริการ', '🧩'],
+    ['map', 'แผนที่', '🗺️'],
+    ['settings', 'ตั้งค่า', '⚙️']
   ];
   return `<nav class="tab-bar">${items.map(([id, label, icon]) => `<button class="tab-item ${active === id ? 'active' : ''}" data-go="${id}"><span>${icon}</span><small>${label}</small></button>`).join('')}</nav>`;
 }
@@ -133,7 +133,7 @@ function shell(content: string, active = '', options: { title?: string; back?: b
   const title = options.title
     ? `<header class="ios-nav"><button class="nav-back ${options.back ? '' : 'hidden'}" data-back>${icons.back}</button><strong>${esc(options.title)}</strong><span class="nav-space"></span></header>`
     : '';
-  return `<div class="app-shell">${title}<main class="page ${options.title ? 'with-nav' : ''}">${content}</main>${options.noTabs ? '' : nav(active)}</div>`;
+  return `<div class="app-shell ${active === 'home' ? 'home' : ''}">${title}<main class="page ${options.title ? 'with-nav' : ''}">${content}</main>${options.noTabs ? '' : nav(active)}</div>`;
 }
 
 function serviceIcon(item: ServiceItem): string {
