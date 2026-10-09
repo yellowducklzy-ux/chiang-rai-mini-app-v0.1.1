@@ -768,7 +768,7 @@ async function initMap(): Promise<void> {
   }
   if (route() !== 'map' || !document.querySelector('#map')) return;
   leafletMap = L.map(container, { zoomControl: false }).setView([appConfig.mapCenter.lat, appConfig.mapCenter.lng], appConfig.mapZoom);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors', maxZoom: 19 }).addTo(leafletMap);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles &copy; Esri', maxZoom: 19 }).addTo(leafletMap);
   L.control.zoom({ position: 'topright' }).addTo(leafletMap);
   const issues = await getMapIssues();
   for (const issue of issues) {
