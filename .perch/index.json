@@ -1,15 +1,15 @@
 {
   "schemaVersion": "perch-folder-index-v1",
-  "generatedAt": "2026-10-09T09:17:00.111Z",
-  "rootId": "root_1791444714201_ploeo7",
-  "rootPath": "D:\\Mainproject_Chiangraicity\\chiang-rai-mini-app-v0.1.1",
+  "generatedAt": "2026-10-09T16:14:38.653Z",
+  "rootId": "root_1791562348094_im0j36",
+  "rootPath": "D:\\Mainproject_Chiangraicity\\chiang-rai-mini-app",
   "counts": {
     "totalFiles": 41,
-    "registeredSources": 42,
+    "registeredSources": 39,
     "indexedFiles": 39,
     "skippedFiles": 2,
     "failedFiles": 0,
-    "staleFiles": 2,
+    "staleFiles": 0,
     "sourceChunkCount": 61,
     "sourceChunkFiles": 39,
     "retrievalChunkCount": 61,
@@ -26,7 +26,7 @@
     "retrieval chunks",
     "embeddings"
   ],
-  "lastIndexedAt": "2026-10-09T09:17:00.111Z",
+  "lastIndexedAt": "2026-10-09T16:14:38.653Z",
   "diagnostics": [
     "Indexed 39/41 file(s) for retrieval.",
     "61 text/source chunk(s) available for keyword search.",
@@ -38,27 +38,27 @@
     {
       "relativePath": "README.md",
       "fileName": "README.md",
-      "modifiedAt": "2026-10-09T09:15:37.777Z",
+      "modifiedAt": "2026-10-09T13:42:45.370Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
       "sourceChunkCount": 2,
       "retrievalChunkCount": 2,
       "embeddedChunkCount": 2,
-      "supabaseSourceId": "9397a4fa-a2a2-46bf-8780-1566aea30c3b",
+      "supabaseSourceId": "6c62d3d5-3b9f-45d5-a227-12b0cd56e4d7",
       "contentHash": "a8bf066765cdad4c0ae1a826445ce6ed76ab46474b1e3900ae274a5eabdf818f"
     },
     {
       "relativePath": "package-lock.json",
       "fileName": "package-lock.json",
-      "modifiedAt": "2026-10-09T08:20:03.710Z",
+      "modifiedAt": "2026-10-08T07:55:19.785Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "12b85428-caf6-4096-8683-6ca683307710",
+      "supabaseSourceId": "462484ef-a164-4e6e-91e9-2991df6bbdb3",
       "contentHash": "f4352a818957a2bdd14067aca3f83d393843cf268bb580b46cfd79b7672d96de"
     },
     {
@@ -71,7 +71,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "36fefb02-ef98-4344-9afe-9225ae6b9c57",
+      "supabaseSourceId": "c7e3a293-3bb9-4c69-89ff-a251d924ffef",
       "contentHash": "5ca692154baadb96fa7bbcc2eff864d66a1884810f8aff8d647d7b4d5715293e"
     },
     {
@@ -84,7 +84,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "cc4f01b5-9ecb-4ce8-b257-c7a9ce608919",
+      "supabaseSourceId": "4ddb5f37-1c60-4bec-9032-6f0757e05a1c",
       "contentHash": "efb0cd372f9bd3c40332fdda2291f0859642e8654b3d628d4670adb7bad75e37"
     },
     {
@@ -97,7 +97,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "8500faf0-dac9-4073-a074-ace7800b0e46",
+      "supabaseSourceId": "1cf9372a-f604-4f9d-82b1-1ae13e1435dd",
       "contentHash": "4951bb43da2dc1405f655367cc529f3544bcf49c014d63b850d4c19c929e9ffa"
     },
     {
@@ -110,7 +110,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "aeb804fb-fad3-478e-b8a1-1367bb460090",
+      "supabaseSourceId": "ca911795-aa82-4e93-90d3-ab198a30634c",
       "contentHash": "c7d328e1bf40ceca074b485fde2090f0baeb754b34fc9414891ae40cb6974a70"
     },
     {
@@ -123,7 +123,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "825f7019-d236-4998-bc4c-b3039ebedd0a",
+      "supabaseSourceId": "34bfedcf-077e-45f1-9306-1748abd3ee0e",
       "contentHash": "9b59f854be52230228ad7364b1c4b317f33877e7a7c493efc88413a187132e55"
     },
     {
@@ -136,7 +136,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "34ca6bfd-0e89-491e-a39e-cfc6353cb610",
+      "supabaseSourceId": "eb9cf6e9-017f-4a86-9084-5de5093a3273",
       "contentHash": "7c1c453b56980b14819c8b91834036a4c5590aac876086cdf1f849b67372d630"
     },
     {
@@ -149,7 +149,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "9a540a6b-a57d-408d-99d2-44ae026a2ee4",
+      "supabaseSourceId": "cb3e7719-58a9-4baa-ab11-17ee9faee6ea",
       "contentHash": "b9eda7fc188ce071a68443334573267e40450a592fd65f375e3ff51aba70c2a4"
     },
     {
@@ -162,7 +162,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "cce3cf5a-4872-4369-8aa2-780f4c281e52",
+      "supabaseSourceId": "b407a5d6-14fd-4968-b807-a1ca1ea555e9",
       "contentHash": "31ba5bdd7427e641009bda8e71ee63ea5446c6bd258dc38bb06cabea8abc4a7b"
     },
     {
@@ -175,36 +175,34 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "2a1d3499-3048-47dc-b7ee-4f8ea667bcdc",
+      "supabaseSourceId": "5bc6a056-d931-48e0-a8c1-2b0c2a07e3d5",
       "contentHash": "e1e430e112865daa1bffffb6b503d56eaee77709fcb4a8026321da6e05c02865"
     },
     {
       "relativePath": ".perch\\mcp.json",
       "fileName": "mcp.json",
-      "modifiedAt": "2026-10-09T08:20:19.818Z",
+      "modifiedAt": "2026-10-09T16:12:28.106Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "bba66e27-51ac-4663-9480-2bd28e7f44b7",
-      "contentHash": "3615cb4d35931dc69bb4e82b533df91345b685474b6f1e68c51fe290409615e5",
-      "message": "Changed since last indexing pass."
+      "supabaseSourceId": "16bf416c-55b5-45cc-918c-9653d81a7c38",
+      "contentHash": "58cd209858117110858e177cda4675208d04b05aea8a8119a39482441a848e5a"
     },
     {
       "relativePath": ".perch\\PERCH.md",
       "fileName": "PERCH.md",
-      "modifiedAt": "2026-10-09T08:20:19.818Z",
+      "modifiedAt": "2026-10-09T13:42:45.356Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "41bf519f-a9f9-4004-881f-978d94968a10",
-      "contentHash": "34d8b8f14b75a7b54f48f126880d8ee4aac62b90a2632cb186bf4f78230b35f3",
-      "message": "Changed since last indexing pass."
+      "supabaseSourceId": "ae9c30f1-4143-430b-b238-83c1c4d54e24",
+      "contentHash": "34d8b8f14b75a7b54f48f126880d8ee4aac62b90a2632cb186bf4f78230b35f3"
     },
     {
       "relativePath": "public\\watch_tower.jpg",
@@ -216,7 +214,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "4c132925-bc99-4fdd-ac1f-d09ea0c9adaa",
+      "supabaseSourceId": "d414169f-89aa-4cae-8785-ddd888e51e31",
       "contentHash": "a379ee47352d005106d29de315d1a60aaad813e13c22e9014cd89c762ea65834"
     },
     {
@@ -229,7 +227,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "7cb02ae6-3bcc-4217-a828-fe47d9aec023",
+      "supabaseSourceId": "9f33e1c5-cc34-41be-a863-8f6d022435cd",
       "contentHash": "07f1b897f54e996c6fc583ce7b41f3376de06574e28b7e38c2dd4024e3ef1e0d"
     },
     {
@@ -242,7 +240,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "ce0d80cf-8051-49c7-91c5-d388ad1e2072",
+      "supabaseSourceId": "1e5e41ae-8d4e-4837-bad5-b50c92b0b7d6",
       "contentHash": "4b31a62a6f15a3711cc3b58d0566ffc068e9c08ff651a21a6e24e32bc2bc5c67"
     },
     {
@@ -255,33 +253,33 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "9271f195-f723-45e8-9cbe-882481ad3370",
+      "supabaseSourceId": "fd62a785-222c-4904-b670-9394eaff357a",
       "contentHash": "5db515bb8f58b31b914a17bebf6da82112c9330ed6f19658504384cdb3f25620"
     },
     {
       "relativePath": "src\\styles.css",
       "fileName": "styles.css",
-      "modifiedAt": "2026-10-09T09:15:21.063Z",
+      "modifiedAt": "2026-10-09T13:42:45.385Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "11291bf2-0469-4d0d-bfa0-26d7a90e5a70",
+      "supabaseSourceId": "61ec1f43-acee-419d-858e-e567920d29b7",
       "contentHash": "c8000d1d686f41433a8e086ded25db974524cf23a5fda460492f704c0211afaf"
     },
     {
       "relativePath": "src\\main.ts",
       "fileName": "main.ts",
-      "modifiedAt": "2026-10-09T09:15:06.453Z",
+      "modifiedAt": "2026-10-09T13:42:45.378Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
       "sourceChunkCount": 18,
       "retrievalChunkCount": 18,
       "embeddedChunkCount": 18,
-      "supabaseSourceId": "07485af4-1518-47f5-a400-66fdc66a0126",
+      "supabaseSourceId": "80b26310-a5f3-462d-9cdc-4d24e05dbda3",
       "contentHash": "3f401fff00d8bb184f504d0f2519d76e5232eeb5e13cd0c6c99c5a54befee285"
     },
     {
@@ -294,7 +292,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "1a4407e5-7c59-4e18-8d74-11863ab5fecc",
+      "supabaseSourceId": "b93244eb-a76b-4483-8839-bba8b9655b55",
       "contentHash": "9d2816bb31e0e7023b02cd957c32f32f21bf15b13bdbf1d508ce25137a978240"
     },
     {
@@ -307,7 +305,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "cce9d4d0-0c8f-420a-8e7b-92d9b0bb5609",
+      "supabaseSourceId": "7f4cbd9d-6620-4ad4-9287-8f8c58c5f56b",
       "contentHash": "bbf0c0013d7afec26bb9a4bf38c391608622a5157e014cd3ea4b68b5cfef6970"
     },
     {
@@ -320,7 +318,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "328a8738-f7b6-4af5-9740-ab2f8366d7b7",
+      "supabaseSourceId": "5c15f7d5-1745-4200-a1a0-eac36625e10f",
       "contentHash": "3e7d2d093219fcfb9e9e1a4ca456fa4a7f7000b109e16edde0bf4e8b0697d8d5"
     },
     {
@@ -333,7 +331,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "dc61c47f-bcf4-4ee9-a6a4-b2af3e05e64e",
+      "supabaseSourceId": "81afc2e0-c728-49d8-9f48-4c11ab7cbd27",
       "contentHash": "9007e1f79292a3fb5d3e941fe2d993742803cde4f5ed0fe7ac80626e36a871c9"
     },
     {
@@ -346,7 +344,7 @@
       "sourceChunkCount": 3,
       "retrievalChunkCount": 3,
       "embeddedChunkCount": 3,
-      "supabaseSourceId": "a8f04060-c968-4bd2-bd8b-60afb70f3d4a",
+      "supabaseSourceId": "9d640ab6-d2da-40b3-9676-a8d24f7d00fc",
       "contentHash": "94e1e038086d9bc4ee7437ce248f2205e02fc4d0ffce4e7eec72b25f3c82eed3"
     },
     {
@@ -359,7 +357,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "5e9cd417-98f7-44d7-a626-20d606a33c79",
+      "supabaseSourceId": "6a7e1460-5e1f-4ad2-8166-7428a6292ca1",
       "contentHash": "b15ff01249aa9c1b8d6e2b62991df0644f2da6366f3003c0dc98ae5affeebf2e"
     },
     {
@@ -372,7 +370,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "3eddf917-7593-4c9a-9d10-cbeaea262ab8",
+      "supabaseSourceId": "88b8bbfa-49b7-4f9b-b351-d323ba29e477",
       "contentHash": "6237656f672f1456782950a74f53d15d2d50ce31bc9e332288de86d98c39a2a6"
     },
     {
@@ -385,7 +383,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "13da12e3-26dc-4884-bf82-771f91a73036",
+      "supabaseSourceId": "e6cc74b2-ba6a-4058-9d1f-20019c50709b",
       "contentHash": "06a36632a375627ca2d3e0902cc3450e0bad53629530f5dd6a558c0ff9119a66"
     },
     {
@@ -398,7 +396,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "df5b892e-fee7-4796-97e5-15730bd255c3",
+      "supabaseSourceId": "834fd8df-8718-4972-8056-28f4f2836fc0",
       "contentHash": "a183de0ba40fcd3a053c89c478ce4a358d74ed6c37aa67e909315a3417a17a01"
     },
     {
@@ -411,7 +409,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "91767074-5f9f-4fe5-b752-882f5a83124d",
+      "supabaseSourceId": "452ba6e5-2ae7-427c-8beb-d1c370f2161d",
       "contentHash": "b9517df368ef97e1089f327e70d448c532b74185be42fe65a87d1a34ba298a7a"
     },
     {
@@ -424,7 +422,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "942cad67-1148-4acc-9ab6-2e979145e98c",
+      "supabaseSourceId": "341c0ec7-2dc9-4525-93e6-5cce898195e1",
       "contentHash": "1c9a66328b71ead842492edc95246c7cb7bf616002958550aa9201213f7e38a8"
     },
     {
@@ -437,7 +435,7 @@
       "sourceChunkCount": 2,
       "retrievalChunkCount": 2,
       "embeddedChunkCount": 2,
-      "supabaseSourceId": "c87c17b0-5275-45d8-85fb-d7fbc7687a40",
+      "supabaseSourceId": "6d1c0b3b-719e-4e1c-b7db-5d668378f5a7",
       "contentHash": "99b0a95914e4d555eda7aa0aa287c2e807cba45124d37ee8ffe8eada759e5a3e"
     },
     {
@@ -478,7 +476,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "849ad5dc-c025-4b34-978f-c13b24daa5a2",
+      "supabaseSourceId": "0bae6521-72ef-473c-98af-663fd21250a6",
       "contentHash": "d1dddbad6ca1249ada350c7606f76a2b1be7c0a34822e2a4c0987ad281390b35"
     },
     {
@@ -491,7 +489,7 @@
       "sourceChunkCount": 2,
       "retrievalChunkCount": 2,
       "embeddedChunkCount": 2,
-      "supabaseSourceId": "02e98ff0-a61c-4237-a996-041147019a75",
+      "supabaseSourceId": "4a4f39df-c6ce-44a3-923b-a9e3437af516",
       "contentHash": "112eb86f2a1c1445312d1c3570efc6700d25fc6f0d7f61326db5b932a862b8eb"
     },
     {
@@ -504,7 +502,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "744d4b6b-0017-4d80-9caf-c01dbccecec7",
+      "supabaseSourceId": "ccad08a7-6cea-479f-8cfc-77e30ded4da8",
       "contentHash": "9e4fdab9779334d872fc1a31c1cfc24bc6b87f4834e785e0a73fe7b387392713"
     },
     {
@@ -517,7 +515,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "30045109-3b28-45a3-b114-3bd421441e22",
+      "supabaseSourceId": "fec1437f-b87d-41fe-b254-0087ddd47577",
       "contentHash": "6f536c74e507defdbbeb239541ab984a1a8e20da1c101e4e0be0c14fea0349ae"
     },
     {
@@ -530,7 +528,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "fb5645c7-c673-417c-955c-000023705c2b",
+      "supabaseSourceId": "4aeea167-fff7-4859-913e-df345583a3ca",
       "contentHash": "c2bb135b32f67a49b3c748f189330c4f0f013e9753526e7f9563357066a50c55"
     },
     {
@@ -543,7 +541,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "d56f38c8-f0c3-4646-803c-18598f588f0a",
+      "supabaseSourceId": "42b36311-d34c-4f2f-9121-f87f09215562",
       "contentHash": "19d2b94e4ae8549f95969a86368c08ee1ebe4ec60ed8d5016c209c49b4409abe"
     },
     {
@@ -556,7 +554,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "6cf7b56a-dff2-41ad-83b9-2a785c20afd1",
+      "supabaseSourceId": "f310b1b6-0361-4650-9a9b-f1db9e867c2e",
       "contentHash": "71756b02d4b42e420c087ca212341a0de0cfc0243621a00c2cf0e3dab41b80a7"
     },
     {
@@ -569,7 +567,7 @@
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
-      "supabaseSourceId": "da62f172-bd9d-4301-9b4d-452c94a0cba1",
+      "supabaseSourceId": "de360d7e-b00b-41d4-ab04-76924c49d76b",
       "contentHash": "01ac1277ad40f1e3ae4f4d166f3f70799b93fc6e0c919cd7cdf9df7a6943b42c"
     }
   ]
