@@ -3,7 +3,6 @@ import { appConfig } from './config';
 import { initLine, isInLineClient, shareApp } from './services/liff';
 import { isSupabaseConfigured } from './services/supabase';
 import { categoryTitle, createComplaint, getMapIssues, getMyComplaints, getNews, getNotices, getServices } from './services/repository';
-import { getChiangRaiWeather } from './services/weather';
 import { isAdminConfigured, isAdminLoggedIn, loginAdmin, logoutAdmin } from './services/adminAuth';
 import { loadLeaflet } from './services/leaflet';
 import type { ComplaintCategory, ComplaintDraft, ComplaintListItem, ComplaintStatus, ManagedMapLayer, NewsItem, NoticeItem, ServiceItem, UserProfile } from './types';
@@ -155,11 +154,6 @@ function dashboard(): string {
       <article class="hero-card">
         <img src="/watch_tower.jpg" alt="หอนาฬิกาเชียงรายยามเย็น" width="627" height="535" />
         <div class="hero-overlay"><span>เทศบาลนครเชียงราย</span><small>เมืองน่าอยู่ สิ่งแวดล้อมดี ชีวิตมีคุณภาพ</small></div>
-      </article>
-      <article class="weather-card glass">
-        <div class="weather-main"><span class="weather-icon" id="weather-icon">🌤️</span><strong id="weather-temp">--°</strong><small id="weather-desc">กำลังโหลด...</small></div>
-        <div class="weather-detail"><b>เชียงราย</b><span id="weather-range">↑ --° ↓ --°</span><span id="weather-humidity">ความชื้น --%</span></div>
-        <div class="rain"><span>💧</span><small id="weather-rain">ฝน --%</small></div>
       </article>
     </section>
     <section class="content-section"><div class="section-title"><h2>บริการของเรา</h2><button data-go="services">ดูทั้งหมด</button></div>
@@ -557,7 +551,6 @@ async function render(): Promise<void> {
   bindEvents();
   if (current === 'requests' && complaintLoadState === 'idle') void loadMyComplaintHistory();
   if (current === 'map') await initMap();
-  if (current === 'home') void updateWeather();
 }
 
 function bindEvents(): void {
@@ -811,21 +804,6 @@ async function initMap(): Promise<void> {
 
 function markerEmoji(category: string): string {
   return ({ streetlight: '💡', road: '!', waste: '♻', flood: '≋', pm25: '☁' } as Record<string, string>)[category] || '•';
-}
-
-async function updateWeather(): Promise<void> {
-  const weather = await getChiangRaiWeather();
-  if (!weather || route() !== 'home') return;
-  const set = (id: string, value: string) => {
-    const el = document.querySelector(`#${id}`);
-    if (el) el.textContent = value;
-  };
-  set('weather-icon', weather.icon);
-  set('weather-temp', `${weather.temperature}°`);
-  set('weather-desc', weather.description);
-  set('weather-range', `↑ ${weather.high}° ↓ ${weather.low}°`);
-  set('weather-humidity', `ความชื้น ${weather.humidity}%`);
-  set('weather-rain', `ฝน ${weather.rainChance}%`);
 }
 
 function toast(message: string): void {

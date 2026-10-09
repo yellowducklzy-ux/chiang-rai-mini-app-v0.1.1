@@ -49,13 +49,6 @@ h1,h2,h3,p { margin:0; }
 .hero-overlay { position:absolute; z-index:2; inset:0; padding:20px; display:flex; flex-direction:column; justify-content:flex-end; color:white; text-shadow:0 1px 5px rgba(0,0,0,.45); }
 .hero-overlay span { font-weight:800; font-size:25px; }
 .hero-overlay small { margin-top:4px; }
-.weather-card { margin-top:18px; border-radius:18px; padding:14px; display:grid; grid-template-columns:1.05fr 1fr .55fr; align-items:center; background:var(--card); box-shadow:0 8px 22px rgba(0,0,0,.08); }
-.weather-main { display:grid; grid-template-columns:auto 1fr; align-items:center; column-gap:8px; }
-.weather-main .weather-icon { grid-row:1/3; font-size:38px; }
-.weather-main strong { font-size:32px; line-height:1; }
-.weather-main small, .weather-detail span, .rain small { color:var(--secondary); font-size:11px; }
-.weather-detail { border-left:1px solid var(--separator); padding-left:14px; display:flex; flex-direction:column; gap:4px; font-size:12px; }
-.rain { border-left:1px solid var(--separator); display:flex; align-items:center; flex-direction:column; gap:4px; color:var(--blue); }
 .content-section { margin-top:28px; }
 .section-title { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
 .section-title h2 { font-size:19px; }

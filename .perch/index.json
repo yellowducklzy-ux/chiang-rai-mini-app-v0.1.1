@@ -1,21 +1,21 @@
 {
   "schemaVersion": "perch-folder-index-v1",
-  "generatedAt": "2026-10-08T08:30:57.885Z",
+  "generatedAt": "2026-10-09T09:17:00.111Z",
   "rootId": "root_1791444714201_ploeo7",
   "rootPath": "D:\\Mainproject_Chiangraicity\\chiang-rai-mini-app-v0.1.1",
   "counts": {
-    "totalFiles": 44,
-    "registeredSources": 39,
-    "indexedFiles": 38,
-    "skippedFiles": 0,
-    "failedFiles": 1,
+    "totalFiles": 41,
+    "registeredSources": 42,
+    "indexedFiles": 39,
+    "skippedFiles": 2,
+    "failedFiles": 0,
     "staleFiles": 2,
-    "sourceChunkCount": 64,
+    "sourceChunkCount": 61,
     "sourceChunkFiles": 39,
-    "retrievalChunkCount": 63,
-    "retrievalReadyFiles": 38,
-    "embeddedChunkCount": 63,
-    "vectorReadyFiles": 38,
+    "retrievalChunkCount": 61,
+    "retrievalReadyFiles": 39,
+    "embeddedChunkCount": 61,
+    "vectorReadyFiles": 39,
     "filesNeedingOcr": 0
   },
   "status": "partial",
@@ -26,28 +26,40 @@
     "retrieval chunks",
     "embeddings"
   ],
-  "lastIndexedAt": "2026-10-08T08:30:57.885Z",
+  "lastIndexedAt": "2026-10-09T09:17:00.111Z",
   "diagnostics": [
-    "Indexed 38/44 file(s) for retrieval.",
-    "64 text/source chunk(s) available for keyword search.",
-    "63 retrieval chunk(s) available.",
-    "63 embedded retrieval chunk(s) available for vector search.",
-    "1 file(s) failed indexing."
+    "Indexed 39/41 file(s) for retrieval.",
+    "61 text/source chunk(s) available for keyword search.",
+    "61 retrieval chunk(s) available.",
+    "61 embedded retrieval chunk(s) available for vector search.",
+    "2 file(s) were skipped."
   ],
   "files": [
     {
+      "relativePath": "README.md",
+      "fileName": "README.md",
+      "modifiedAt": "2026-10-09T09:15:37.777Z",
+      "status": "indexed",
+      "retrievalReady": true,
+      "vectorReady": true,
+      "sourceChunkCount": 2,
+      "retrievalChunkCount": 2,
+      "embeddedChunkCount": 2,
+      "supabaseSourceId": "9397a4fa-a2a2-46bf-8780-1566aea30c3b",
+      "contentHash": "a8bf066765cdad4c0ae1a826445ce6ed76ab46474b1e3900ae274a5eabdf818f"
+    },
+    {
       "relativePath": "package-lock.json",
       "fileName": "package-lock.json",
-      "modifiedAt": "2026-10-08T07:55:19.785Z",
-      "status": "failed",
+      "modifiedAt": "2026-10-09T08:20:03.710Z",
+      "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
       "sourceChunkCount": 1,
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
       "supabaseSourceId": "12b85428-caf6-4096-8683-6ca683307710",
-      "contentHash": "f4352a818957a2bdd14067aca3f83d393843cf268bb580b46cfd79b7672d96de",
-      "message": "Embedding failed for chunk 0: Embedding provider temporarily unavailable (circuit open)."
+      "contentHash": "f4352a818957a2bdd14067aca3f83d393843cf268bb580b46cfd79b7672d96de"
     },
     {
       "relativePath": "vercel.json",
@@ -115,19 +127,6 @@
       "contentHash": "9b59f854be52230228ad7364b1c4b317f33877e7a7c493efc88413a187132e55"
     },
     {
-      "relativePath": "README.md",
-      "fileName": "README.md",
-      "modifiedAt": "2026-09-09T04:39:30.661Z",
-      "status": "indexed",
-      "retrievalReady": true,
-      "vectorReady": true,
-      "sourceChunkCount": 2,
-      "retrievalChunkCount": 2,
-      "embeddedChunkCount": 2,
-      "supabaseSourceId": "9397a4fa-a2a2-46bf-8780-1566aea30c3b",
-      "contentHash": "734a18e07179bc9fcc82c7db3ebd707a058b4e012537f20c6f109e6280ba1ada"
-    },
-    {
       "relativePath": "AGENTS.md",
       "fileName": "AGENTS.md",
       "modifiedAt": "2026-09-09T04:39:30.653Z",
@@ -180,22 +179,9 @@
       "contentHash": "e1e430e112865daa1bffffb6b503d56eaee77709fcb4a8026321da6e05c02865"
     },
     {
-      "relativePath": ".perch\\PERCH.md",
-      "fileName": "PERCH.md",
-      "modifiedAt": "2026-10-08T07:31:54.214Z",
-      "status": "indexed",
-      "retrievalReady": true,
-      "vectorReady": true,
-      "sourceChunkCount": 1,
-      "retrievalChunkCount": 1,
-      "embeddedChunkCount": 1,
-      "supabaseSourceId": "41bf519f-a9f9-4004-881f-978d94968a10",
-      "contentHash": "34d8b8f14b75a7b54f48f126880d8ee4aac62b90a2632cb186bf4f78230b35f3"
-    },
-    {
       "relativePath": ".perch\\mcp.json",
       "fileName": "mcp.json",
-      "modifiedAt": "2026-10-08T07:31:54.213Z",
+      "modifiedAt": "2026-10-09T08:20:19.818Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
@@ -203,7 +189,22 @@
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
       "supabaseSourceId": "bba66e27-51ac-4663-9480-2bd28e7f44b7",
-      "contentHash": "3615cb4d35931dc69bb4e82b533df91345b685474b6f1e68c51fe290409615e5"
+      "contentHash": "3615cb4d35931dc69bb4e82b533df91345b685474b6f1e68c51fe290409615e5",
+      "message": "Changed since last indexing pass."
+    },
+    {
+      "relativePath": ".perch\\PERCH.md",
+      "fileName": "PERCH.md",
+      "modifiedAt": "2026-10-09T08:20:19.818Z",
+      "status": "indexed",
+      "retrievalReady": true,
+      "vectorReady": true,
+      "sourceChunkCount": 1,
+      "retrievalChunkCount": 1,
+      "embeddedChunkCount": 1,
+      "supabaseSourceId": "41bf519f-a9f9-4004-881f-978d94968a10",
+      "contentHash": "34d8b8f14b75a7b54f48f126880d8ee4aac62b90a2632cb186bf4f78230b35f3",
+      "message": "Changed since last indexing pass."
     },
     {
       "relativePath": "public\\watch_tower.jpg",
@@ -258,49 +259,9 @@
       "contentHash": "5db515bb8f58b31b914a17bebf6da82112c9330ed6f19658504384cdb3f25620"
     },
     {
-      "relativePath": "public\\developer-mode.css",
-      "fileName": "developer-mode.css",
-      "modifiedAt": "2026-09-08T08:37:30.000Z",
-      "status": "indexed",
-      "retrievalReady": true,
-      "vectorReady": true,
-      "sourceChunkCount": 1,
-      "retrievalChunkCount": 1,
-      "embeddedChunkCount": 1,
-      "supabaseSourceId": "2aa084e8-5004-4e1c-bec2-5687b7065281",
-      "contentHash": "f6910ed6bc0333d2af01763eda5800bdae5927a31b21a0840fb924baa8163af2"
-    },
-    {
-      "relativePath": "public\\developer-mode.js",
-      "fileName": "developer-mode.js",
-      "modifiedAt": "2026-09-08T08:37:30.000Z",
-      "status": "indexed",
-      "retrievalReady": true,
-      "vectorReady": true,
-      "sourceChunkCount": 3,
-      "retrievalChunkCount": 3,
-      "embeddedChunkCount": 3,
-      "supabaseSourceId": "7f49d544-45b4-4085-ad21-f8792f8010e7",
-      "contentHash": "b8013e29c8f84413099330ffbbc0373cd0366a113af5fedf2cb0d1dea7a92794"
-    },
-    {
-      "relativePath": "src\\main.ts",
-      "fileName": "main.ts",
-      "modifiedAt": "2026-10-08T08:30:33.052Z",
-      "status": "indexed",
-      "retrievalReady": true,
-      "vectorReady": true,
-      "sourceChunkCount": 19,
-      "retrievalChunkCount": 19,
-      "embeddedChunkCount": 19,
-      "supabaseSourceId": "07485af4-1518-47f5-a400-66fdc66a0126",
-      "contentHash": "087dfdb74936b171bbe6c995b5bee51c1c853bda2e86bbd3108fffbe0f0455cf",
-      "message": "Changed since last indexing pass."
-    },
-    {
       "relativePath": "src\\styles.css",
       "fileName": "styles.css",
-      "modifiedAt": "2026-10-08T08:02:16.572Z",
+      "modifiedAt": "2026-10-09T09:15:21.063Z",
       "status": "indexed",
       "retrievalReady": true,
       "vectorReady": true,
@@ -308,8 +269,20 @@
       "retrievalChunkCount": 1,
       "embeddedChunkCount": 1,
       "supabaseSourceId": "11291bf2-0469-4d0d-bfa0-26d7a90e5a70",
-      "contentHash": "034b0fa2107574976fff58992061f53d5e81dd9fcfc37edfdca2a05982823c81",
-      "message": "Changed since last indexing pass."
+      "contentHash": "c8000d1d686f41433a8e086ded25db974524cf23a5fda460492f704c0211afaf"
+    },
+    {
+      "relativePath": "src\\main.ts",
+      "fileName": "main.ts",
+      "modifiedAt": "2026-10-09T09:15:06.453Z",
+      "status": "indexed",
+      "retrievalReady": true,
+      "vectorReady": true,
+      "sourceChunkCount": 18,
+      "retrievalChunkCount": 18,
+      "embeddedChunkCount": 18,
+      "supabaseSourceId": "07485af4-1518-47f5-a400-66fdc66a0126",
+      "contentHash": "3f401fff00d8bb184f504d0f2519d76e5232eeb5e13cd0c6c99c5a54befee285"
     },
     {
       "relativePath": "src\\vite-env.d.ts",
@@ -349,19 +322,6 @@
       "embeddedChunkCount": 1,
       "supabaseSourceId": "328a8738-f7b6-4af5-9740-ab2f8366d7b7",
       "contentHash": "3e7d2d093219fcfb9e9e1a4ca456fa4a7f7000b109e16edde0bf4e8b0697d8d5"
-    },
-    {
-      "relativePath": "src\\services\\weather.ts",
-      "fileName": "weather.ts",
-      "modifiedAt": "2026-09-09T04:39:30.845Z",
-      "status": "indexed",
-      "retrievalReady": true,
-      "vectorReady": true,
-      "sourceChunkCount": 1,
-      "retrievalChunkCount": 1,
-      "embeddedChunkCount": 1,
-      "supabaseSourceId": "4db734a8-d377-437f-9124-3f333cd8492e",
-      "contentHash": "23176a9ee988ede09c88172b81b6fda5e1ad2c82b83c9c329f93e5a9c4654d23"
     },
     {
       "relativePath": "src\\services\\supabase.ts",
@@ -484,27 +444,29 @@
       "relativePath": "supabase\\config.toml",
       "fileName": "config.toml",
       "modifiedAt": "2026-09-09T04:39:30.867Z",
-      "status": "pending",
+      "status": "skipped",
       "retrievalReady": false,
       "vectorReady": false,
       "sourceChunkCount": 0,
       "retrievalChunkCount": 0,
       "embeddedChunkCount": 0,
       "supabaseSourceId": null,
-      "contentHash": null
+      "contentHash": null,
+      "message": "config.toml: unsupported file type (.toml). Supported: text, csv, xlsx, pdf, docx, common images."
     },
     {
       "relativePath": "supabase\\functions\\deno.lock",
       "fileName": "deno.lock",
       "modifiedAt": "2026-09-09T04:39:30.903Z",
-      "status": "pending",
+      "status": "skipped",
       "retrievalReady": false,
       "vectorReady": false,
       "sourceChunkCount": 0,
       "retrievalChunkCount": 0,
       "embeddedChunkCount": 0,
       "supabaseSourceId": null,
-      "contentHash": null
+      "contentHash": null,
+      "message": "deno.lock: unsupported file type (.lock). Supported: text, csv, xlsx, pdf, docx, common images."
     },
     {
       "relativePath": "supabase\\functions\\deno.json",
@@ -563,11 +525,11 @@
       "fileName": "line-auth.ts",
       "modifiedAt": "2026-09-09T04:39:30.925Z",
       "status": "indexed",
-      "retrievalReady": false,
-      "vectorReady": false,
+      "retrievalReady": true,
+      "vectorReady": true,
       "sourceChunkCount": 1,
-      "retrievalChunkCount": 0,
-      "embeddedChunkCount": 0,
+      "retrievalChunkCount": 1,
+      "embeddedChunkCount": 1,
       "supabaseSourceId": "fb5645c7-c673-417c-955c-000023705c2b",
       "contentHash": "c2bb135b32f67a49b3c748f189330c4f0f013e9753526e7f9563357066a50c55"
     },
@@ -575,40 +537,40 @@
       "relativePath": "supabase\\functions\\_shared\\http.ts",
       "fileName": "http.ts",
       "modifiedAt": "2026-09-09T04:39:30.913Z",
-      "status": "pending",
-      "retrievalReady": false,
-      "vectorReady": false,
-      "sourceChunkCount": 0,
-      "retrievalChunkCount": 0,
-      "embeddedChunkCount": 0,
-      "supabaseSourceId": null,
-      "contentHash": null
+      "status": "indexed",
+      "retrievalReady": true,
+      "vectorReady": true,
+      "sourceChunkCount": 1,
+      "retrievalChunkCount": 1,
+      "embeddedChunkCount": 1,
+      "supabaseSourceId": "d56f38c8-f0c3-4646-803c-18598f588f0a",
+      "contentHash": "19d2b94e4ae8549f95969a86368c08ee1ebe4ec60ed8d5016c209c49b4409abe"
     },
     {
       "relativePath": "supabase\\migrations\\202609080002_separate_information_services.sql",
       "fileName": "202609080002_separate_information_services.sql",
       "modifiedAt": "2026-09-09T04:39:30.965Z",
-      "status": "pending",
-      "retrievalReady": false,
-      "vectorReady": false,
-      "sourceChunkCount": 0,
-      "retrievalChunkCount": 0,
-      "embeddedChunkCount": 0,
-      "supabaseSourceId": null,
-      "contentHash": null
+      "status": "indexed",
+      "retrievalReady": true,
+      "vectorReady": true,
+      "sourceChunkCount": 1,
+      "retrievalChunkCount": 1,
+      "embeddedChunkCount": 1,
+      "supabaseSourceId": "6cf7b56a-dff2-41ad-83b9-2a785c20afd1",
+      "contentHash": "71756b02d4b42e420c087ca212341a0de0cfc0243621a00c2cf0e3dab41b80a7"
     },
     {
       "relativePath": "supabase\\migrations\\202609080001_secure_complaints.sql",
       "fileName": "202609080001_secure_complaints.sql",
       "modifiedAt": "2026-09-09T04:39:30.962Z",
-      "status": "pending",
-      "retrievalReady": false,
-      "vectorReady": false,
-      "sourceChunkCount": 0,
-      "retrievalChunkCount": 0,
-      "embeddedChunkCount": 0,
-      "supabaseSourceId": null,
-      "contentHash": null
+      "status": "indexed",
+      "retrievalReady": true,
+      "vectorReady": true,
+      "sourceChunkCount": 1,
+      "retrievalChunkCount": 1,
+      "embeddedChunkCount": 1,
+      "supabaseSourceId": "da62f172-bd9d-4301-9b4d-452c94a0cba1",
+      "contentHash": "01ac1277ad40f1e3ae4f4d166f3f70799b93fc6e0c919cd7cdf9df7a6943b42c"
     }
   ]
 }
